@@ -6,7 +6,7 @@ File sending for Rack applications.
 Usage
 -----
 
-Make sure your applications implements two methods: `env` and `halt`,
+Make sure your application implements two methods: `env` and `halt`,
 where `env` returns a hash with the Rack environment and `halt` returns
 an array response `[status, headers, [body]]`.
 
