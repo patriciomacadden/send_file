@@ -8,7 +8,7 @@ Usage
 
 Make sure your application implements two methods: `env` and `halt`,
 where `env` returns a hash with the Rack environment and `halt` returns
-an array response `[status, headers, [body]]`.
+an array response like `[status, headers, [body]]`.
 
 The next example uses [Cuba][cuba]:
 
