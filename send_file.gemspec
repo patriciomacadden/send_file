@@ -12,5 +12,6 @@ Gem::Specification.new do |s|
 
   s.add_development_dependency "cuba"
   s.add_development_dependency "cutest"
+  s.add_development_dependency "hobbit"
   s.add_development_dependency "rack-test"
 end
